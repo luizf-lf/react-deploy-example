@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+User-agent: T-1000
+Disallow: luiz.ferreira
