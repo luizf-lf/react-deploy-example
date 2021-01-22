@@ -20,7 +20,7 @@ function App() {
           >
             repository
           </a>{' '}
-          if you want to learn how to do it.
+          readme if you want to learn how to do it.
         </p>
       </header>
     </div>
