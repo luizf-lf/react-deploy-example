@@ -8,16 +8,20 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          This app is an example on how to deploy a React App to GitHub Pages.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          Please refer to the{' '}
+          <a
+            className="App-link"
+            href="https://github.com/luizf-lf/react-deploy-example"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            repository
+          </a>{' '}
+          if you want to learn how to do it.
+        </p>
       </header>
     </div>
   );
