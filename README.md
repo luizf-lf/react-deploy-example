@@ -1,12 +1,12 @@
 # React Deploy Example.
 
-This repository contains a working react app being deployed to GitHub Pages.
+This repository contains a working react app deployed to GitHub Pages.
 
 See it live at https://luizf-lf.github.io/react-deploy-example/
 
 ### What is GitHub Pages?
 
-If you found this repository, you probably already know what GitHub Pages is, but if you don't, you can read about it [here](https://pages.github.com/).
+If you found this repository, you probably already know what GitHub Pages is, but if you don't, you can read more about it [here](https://pages.github.com/).
 
 ### Setup
 
@@ -14,7 +14,7 @@ Follow these steps if you want to deploy your React App to GitHub Pages.
 
 > Note: You must have at least Node 8.10.0
 
-Assuming you already have a working react repository, just add `gh-pages` as a dev dependency to your project:
+Assuming you already have a working React project, just add `gh-pages` as a dev dependency to your project:
 
 `$ yarn add gh-pages -D`
 
@@ -50,5 +50,7 @@ Once everything is set up, just run the `deploy` command and the magic will happ
 After that, your app will be available at https://{your-username}.github.io/{your-repo-name}.
 
 For example, this repository is available at: https://luizf-lf.github.io/react-deploy-example/
+
+Every time you make changes to your application, run both `build` and the `deploy` commands.
 
 And that's all.
